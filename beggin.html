@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-nav">
+        <h1 class="header">PokéAPI</h1>
+    </div>
+    <main>
+        <p id="aviso" class="hidden"></p>
+
+        <div>
+            <div class="block">
+                
+            </div>
+            <div id="resultado" class="hidden">
+                <h2 id="poke-nome"></h2>
+                <img id="poke-imagem" alt="Sprite pokemon">
+                <p id="poke-tipo"></p>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" id="busca" placeholder="Digite o nome do Pokémon ou ID">
+            <button id="btn-search" class="btn-search">Buscar</button>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
+
